@@ -2,9 +2,12 @@ package com.belajarexplicitintent;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class SecondActivity extends AppCompatActivity {
+    TextView tvNama;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -12,5 +15,12 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         getSupportActionBar().setTitle("Layout B");
+
+        tvNama = findViewById(R.id.tv_nama);
+
+        
+
+
+
     }
 }
